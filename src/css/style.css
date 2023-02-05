@@ -22,4 +22,51 @@ body{
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to right, #2E3D42 35%, white 35%);
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+header div{
+    display: flex;
+    padding: 5px 0px;
+}
+header div h1{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: var(--cor1);
+}
+#vitor{
+    list-style-type: '\25AA\00A0';
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+.superior{
+    text-decoration: none;
+    color: var(--cor1);
+}
+header div h2{
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--cor1);
+    font-weight: 100;
+    padding: 5px;
+    font-size: 1.45em;
+}
+header div h2 > a{
+    text-decoration: none;
+}
+.navbar{
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--cor1);
+    padding: 15px 10px;
+}
+.navbar:hover{
+    color: var(--cor4);
+    text-decoration: underline;
 }
