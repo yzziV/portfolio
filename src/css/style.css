@@ -55,6 +55,7 @@ nav > a:hover{
 main{
     background: linear-gradient(to top, #2E3D42 70%, white 20%);
     background-size: cover;
+    padding-bottom: 60px;
 }
 main section{
     text-align: center;
@@ -111,6 +112,8 @@ section .redes #icon:hover{
     border-radius: 0px 0px 10px 10px;
     box-shadow: -7px 0px 7px 0px rgba(0, 0, 0, 0.219);
     font-family: var(--fonte-padrao);
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 .descript .oi{
     font-family: var(--fonte-destaque);
@@ -138,8 +141,26 @@ section .redes #icon:hover{
     color: #000000;
     box-shadow: inset 0 0 0 3;
 }
-.descript section{
+.descript section p{
     text-align: justify;
     margin: auto;
     font-weight: 100;
+}
+.apresentacao{
+    margin-bottom: 30px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 0 10px;
+}
+footer{
+    padding-top: 10px;
+    background-color: red;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+}
+footer .final{
+    font-family: var(--fonte-destaque);
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 8px;
 }
