@@ -124,6 +124,7 @@ section .redes #icon:hover{
     font-weight: 400;
 }
 .descript .botao{
+    cursor: pointer;
     font-weight: 100;
     text-transform: uppercase;
     padding: 15px;
@@ -154,7 +155,7 @@ section .redes #icon:hover{
 }
 footer{
     padding-top: 10px;
-    background-color: red;
+    background-color: white;
     text-align: center;
     font-family: var(--fonte-padrao);
 }
@@ -162,5 +163,27 @@ footer .final{
     font-family: var(--fonte-destaque);
     font-size: 1em;
     font-weight: bold;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
+}
+footer p > a{
+    color: #000000;
+    text-decoration: none;
+}
+footer #icon{
+    padding: 4px;
+    border-bottom: 6px solid transparent;
+}
+footer #icon:hover{
+    border-bottom: 2px solid #2B3033;
+}
+footer p{
+    margin-bottom: 0px;
+}
+footer p > a:hover{
+    text-decoration: underline;
+    color: var(--cor5);
+}
+.copy{
+    margin-top: 20px;
+    color: #2E3D42;
 }
