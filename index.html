@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="src/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/media.css">
     <title>Vitor Aguiar | Portfólio</title>
 </head>
 <body>
     <header>
         <div>
-            <h1><a href="index.html" class="superior">
+            <h1><a href="index.html" class="superior" id="vitor">
                 <ul id="vitor">
                     <li>Vitor Aguiar</li>
                 </ul>
             </a></h1>
-            <a href="index.html" class="superior">
+            <a href="index.html" class="superior" id="dev">
                 <h2>/ dev frontend</h2>
             </a>
         </div>
@@ -35,14 +37,50 @@
                 </a>
         </nav>
     </header>
-        <section class="descript">
+    <main>
+        <section class="nome-foto">
             <div class="img">
-              <img src="src/image/vitor-bola.png" alt="perfil">
-              <h1>OI</h1>
+              <img src="src/image/vitor-bola.png" alt="perfil" id="perfil">
+              <h2 id="vito">Vitor Aguiar</h2>
+              <h2 class="web">D e s e n v o l v e d o r</h2>
+              <h2 class="web">W e b</h2>
             </div>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, dolorem?
-            </p>
+              <div class="redes">
+                <img src="src/image/github-30.png" alt="github" class="social" id="icon">
+                <img src="src/image/linkedin-30.png" alt="linkedin" class="social" id="icon">
+                <img src="src/image/zap-30.png" alt="zap" class="social" id="icon">
+                <img src="src/image/insta-30.png" alt="instagram" class="social" id="icon">
+              </div>
           </section>
+          <section class="descript">
+                <h1 class="oi">Ooi</h1>
+                <h2 class="meu">Meu perfil e meus projetos</h2>
+                <button class="botao">currículo</button>
+                <button class="botao">projetos</button>
+                <article>
+                    <p class="apresentacao">Meu nome é Vitor Augusto Aguiar, mas pode me chamar de Vizzy, atualmente estou cursando Engenharia Civil no Instituto Federal de Goiás, mas não é só por conta disso que me prendo somente à faculdade, pois é de extrema importância a expansão do conhecimento, é nisso que acredito.</p>
+                    <p class="apresentacao">Atualmente estou aprendendo html5, css3 e javascript, portanto pretendo finalizar o ano de 2023 sabendo a base do Frontend, como TS, React, Next, Node, Git e Github. Diante disso tenho como meta tornar um profissional decente e competente.</p>
+                </article>
+          </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+        function clickNav(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
